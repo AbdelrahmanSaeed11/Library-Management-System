@@ -1,0 +1,34 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdelrahmanSaeed11/Library-Management-System.git"
+  },
+  "author": "Abdelrahman Saeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdelrahmanSaeed11/Library-Management-System/issues"
+  },
+  "homepage": "https://github.com/AbdelrahmanSaeed11/Library-Management-System#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "joi": "^17.13.3",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mysql2": "^3.11.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
